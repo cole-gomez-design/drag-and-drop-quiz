@@ -1,11 +1,20 @@
-body{
-		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
-		background-image: url("background.jpeg");
-		background-size: 100% auto;
-		display: flex;
-    	flex-direction: column;
-    	align-items: center;
-	}
+      body {
+            margin: 0;
+            padding: 0;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            color: #172B3A;
+            background-image:
+                linear-gradient(
+                    rgba(255, 255, 255, 0.60),
+                    rgba(255, 255, 255, 0.60)
+                ),
+                url("images/watercolor.jpeg");
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
 	.header {
 		position: relative;
 		width: 100%;
